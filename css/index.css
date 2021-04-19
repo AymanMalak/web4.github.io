@@ -1,0 +1,314 @@
+/* -------------------------------------  Global Style  -------------------------------------------- */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: acumin-pro-extra-condensed, Helvetica, Roboto, Arial, sans-serif;
+}
+
+.overlay {
+  background-color: rgba(2, 61, 118, 0.9);
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  opacity: 0;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+}
+
+/* -------------------------------------  navbar Style  -------------------------------------------- */
+nav.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 10px;
+  z-index: 999999;
+}
+
+nav.navbar .navbar-default {
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
+  background: transparent;
+}
+
+nav.navbar .navbar-default.scrolled {
+  background: rgba(56, 57, 58, 0.9);
+}
+
+nav.navbar #navigation li:hover a {
+  color: blue !important;
+}
+
+/* hide Offcanvas above 768px */
+/* -------------------------------------  Home  Style  -------------------------------------------- */
+.owl-carousel {
+  position: absolute;
+  bottom: 58%;
+  left: 0;
+  color: #fff;
+  text-align: left;
+  width: 100%;
+}
+
+.owl-carousel .ayman span {
+  font-size: 0.9rem;
+}
+
+.owl-carousel .ayman h1 .ah-words-wrapper {
+  font-size: 2.4rem;
+}
+
+/* -------------------------------------  Home  Style  -------------------------------------------- */
+#video-holder {
+  position: relative;
+}
+
+#video-holder #myVideo {
+  position: absolute;
+  top: 0;
+  margin: auto;
+}
+
+#video-holder .bg-home {
+  height: 100px;
+  position: absolute;
+  top: 0;
+  background-image: url("../images/epgdxprum1ligj4i0s1j.jpg");
+  background-size: 100% 100%;
+}
+
+/* -------------------------------------  second section Style  -------------------------------------------- */
+#nd-sec h3.font-weight-bold {
+  color: #023d76;
+}
+
+#nd-sec p {
+  color: #333;
+}
+
+#nd-sec .row {
+  text-align: center;
+}
+
+#nd-sec .row .card1 {
+  height: 500px;
+  background-image: url("../images/nd-sec-pages/james-group-corporate-re-home--mobile.jpg");
+  background-size: 100% 100%;
+  position: relative;
+}
+
+#nd-sec .row .card2 {
+  height: 500px;
+  background-image: url("../images/nd-sec-pages/james-group-multi-family-home--mobile.jpg");
+  background-size: 100% 100%;
+  position: relative;
+}
+
+#nd-sec .row .card3 {
+  height: 500px;
+  background-image: url("../images/nd-sec-pages/james-group-net-lease-home--mobile.jpg");
+  background-size: 100% 100%;
+  position: relative;
+}
+
+#nd-sec .row .card1:hover p,
+#nd-sec .row .card2:hover p,
+#nd-sec .row .card3:hover p {
+  opacity: 1;
+  -webkit-transition: 0.6s ease all;
+  transition: 0.6s ease all;
+}
+
+#nd-sec .row .card1:hover h5,
+#nd-sec .row .card2:hover h5,
+#nd-sec .row .card3:hover h5 {
+  top: 0;
+}
+
+#nd-sec .row .card1:hover .overlay,
+#nd-sec .row .card2:hover .overlay,
+#nd-sec .row .card3:hover .overlay {
+  opacity: 0.9;
+  -webkit-transition: 1s ease all;
+  transition: 1s ease all;
+}
+
+#nd-sec .row .cont-hover {
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  color: #fff;
+  top: 40%;
+}
+
+#nd-sec .row .cont-hover h5 {
+  position: relative;
+  top: 100px;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+
+#nd-sec .row .cont-hover p {
+  color: #fff;
+  opacity: 0;
+  -webkit-transition: 1s opacity ease;
+  transition: 1s opacity ease;
+}
+
+#nd-sec .row a {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  position: absolute;
+  top: 70%;
+  left: 35%;
+}
+
+#nd-sec .row a i {
+  color: red;
+  width: 25px;
+}
+
+/* -------------------------------------  third section Style  -------------------------------------------- */
+#rd-sect .hid {
+  visibility: hidden;
+}
+
+#rd-sect h2 {
+  color: #023d76;
+}
+
+#rd-sect .container .card {
+  position: relative;
+  border: none;
+  margin: auto;
+}
+
+#rd-sect .container .card img {
+  height: 350px;
+}
+
+#rd-sect .container .card .img-holder {
+  position: relative;
+}
+
+#rd-sect .container .card .img-holder .content {
+  height: 80px;
+  position: absolute;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(47, 50, 53, 0.9);
+  top: 78%;
+  color: #fff;
+  width: 100%;
+}
+
+/* -------------------------------------  form Style  -------------------------------------------- */
+#form {
+  background-color: #f7f7f7;
+}
+
+#form h2 {
+  color: #023d76;
+}
+
+#form input {
+  border: none;
+}
+
+#form button {
+  border-radius: 0;
+}
+
+/* -------------------------------------  footer Style  -------------------------------------------- */
+footer {
+  background-color: #333;
+  color: #fff !important;
+}
+
+footer span {
+  padding: 0 10px;
+}
+
+footer span i {
+  padding: 5px 10px;
+  font-size: 2rem;
+}
+
+footer span i:hover {
+  background-color: #0b71cf;
+  -webkit-transition: all ease 0.8s;
+  transition: all ease 0.8s;
+}
+
+footer p {
+  font-size: 0.9rem;
+  width: 70%;
+}
+
+footer .right a {
+  padding: 0 10px;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+footer .right a:hover {
+  color: #646060 !important;
+  -webkit-transition: 0.7s all ease;
+  transition: 0.7s all ease;
+}
+
+/* -------------------------------------  Button Contact Style  -------------------------------------------- */
+#btn-contact {
+  position: fixed;
+  right: 30px;
+  bottom: 15px;
+  border-radius: 15px;
+}
+
+#btn-contact i {
+  font-size: 1.5rem;
+}
+
+/* -------------------------------------  Contact Us Style  -------------------------------------------- */
+#contact {
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  width: 360px;
+  z-index: 555;
+  display: none;
+}
+
+#contact header {
+  width: 100%;
+}
+
+#contact .bg-light {
+  border-radius: 5px;
+  background-color: #eee !important;
+}
+
+#contact input,
+#contact textarea {
+  background-color: #eee !important;
+  border: none;
+}
+
+#contact p a {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,74 @@
+nav .flexpanel {
+    width: 77% !important;
+}
+nav .flex-btn{
+    right: 100px !important;
+}
+nav #navigation li {
+    padding: 33px 0 !important;
+}
+
+/* nav .flexpanel{
+    height: 100% !important;
+    background-color: #09c !important;
+} */
+
+#home {
+    /* height: 100vh !important; */
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    height: 75vh !important;
+    background-image: url("../images/home-slide/james-group-home-main-slider-2.jpg") !important;
+    background-size: 100% 100% !important;
+}
+
+#home video {
+    display: none !important;
+}
+
+#home .owl-carousel {
+    /* height:  100% !important; */
+    width: 100% !important;
+    position: absolute;
+    top: 160px !important;
+    left: 0px !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    /* margin: auto !important; */
+    /* padding-top: 600px !important; */
+    color: #fff !important;
+    /* background-color: red !important; */
+}
+
+#home .owl-carousel span {
+    font-size: 0.9rem !important;
+}
+
+#home .owl-carousel h1 span {
+    font-size: 1.7rem !important;
+    padding: 20px 0 !important;
+}
+
+/* third section */
+
+#rd-sect h6 {
+    font-size: 1rem !important;
+    /* color: red !important; */
+}
+
+#form input, #form button {
+    width: 100% !important;
+}
+
+#form h2 {
+    font-size: 1.7rem !important;
+}
+
+.par {
+    /* color:  !important; */
+    font-size: 1rem !important;
+    width: 90% !important;
+    margin: auto !important;
+}

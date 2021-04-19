@@ -1,0 +1,309 @@
+/* -------------------------------------  Global Style  -------------------------------------------- */
+* {
+  box-sizing: border-box !important;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 16px;
+}
+body {
+  @include offcanvas-push-left;
+  font-family: acumin-pro-extra-condensed, Helvetica, Roboto, Arial, sans-serif;
+}
+
+/* -------------------------------------  Custom Style  -------------------------------------------- */
+.overlay {
+  background-color: rgba(2, 61, 118, 0.9);
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  opacity: 0;
+  transition: 0.5s ease all;
+}
+// .active{
+//     color: #0b71cf;
+//     background-color: #0b71cf;
+// }
+.fly {
+  opacity: 0;
+  transition: all 600ms ease-in-out;
+  transform: translateY(100px) scale(1.05) translate3d(0, 0, 0);
+}
+
+.show-block {
+  opacity: 1;
+  transform: translateY(0) scale(1) translate3d(0, 0, 0);
+}
+
+.js-slidein {
+  opacity: 0;
+  transform: translateY(100px);
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.js-slidein-visible {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+:root {
+  --fade-time: 0.5s;
+}
+#wrapper{
+  background-color: rgba(0,0,0,0.7) !important;
+}
+
+/* -------------------------------------  Navbar Style  -------------------------------------------- */
+nav {
+  &.navbar {
+    position: fixed;
+    top: 0;
+    width: 100% !important;
+    padding: 15px 10px;
+    z-index: 999999;
+    .navbar-default {
+      transition: 500ms ease;
+      background: transparent;
+    }
+    .navbar-default.scrolled {
+      background: rgba(56, 57, 58, 0.9);
+    }
+
+    #navigation {
+      ul {
+        li {
+          padding: 15px 0;
+          transition: all ease 0.8s;
+        }
+        li:hover a {
+          color: blue !important;
+        }
+      }
+    }
+  }
+}
+/* -------------------------------------  Carousel in Home  Style  -------------------------------------------- */
+.owl-carousel {
+  color: #fff;
+  text-align: left;
+  // width: 100%;
+  // .ayman {
+  span {
+    font-size: 0.9rem;
+  }
+  h1 {
+    .ah-words-wrapper {
+      font-size: 4.4rem;
+    }
+  }
+  // }
+}
+/* -------------------------------------  Video in Home  Style  -------------------------------------------- */
+
+/* -------------------------------------  Second section Style  -------------------------------------------- */
+// #nd-sec {
+//   h3.font-weight-bold {
+//     color: #023d76;
+//   }
+//   p {
+//     color: #333;
+//   }
+//   .container {
+//     text-align: left;
+
+//     .cards {
+//       .row {
+//         text-align: center;
+//         .card1 {
+//           height: 500px;
+//           background-image: url("../images/nd-sec-pages/james-group-corporate-re-home--mobile.jpg");
+//           background-size: 100% 100%;
+//           position: relative;
+//         }
+//         .card2 {
+//           height: 500px;
+//           background-image: url("../images/nd-sec-pages/james-group-multi-family-home--mobile.jpg");
+//           background-size: 100% 100%;
+//           position: relative;
+//         }
+//         .card3 {
+//           height: 500px;
+//           background-image: url("../images/nd-sec-pages/james-group-net-lease-home--mobile.jpg");
+//           background-size: 100% 100%;
+//           position: relative;
+//         }
+
+//         .card1:hover,
+//         .card2:hover,
+//         .card3:hover {
+//           p {
+//             opacity: 1;
+//             transition: 0.6s ease all;
+//           }
+//           h5 {
+//             top: 0;
+//           }
+//         }
+
+//         .card1:hover .overlay,
+//         .card2:hover .overlay,
+//         .card3:hover .overlay {
+//           opacity: 0.9;
+//           transition: 1s ease all;
+//         }
+
+//         .cont-hover {
+//           width: 100%;
+//           margin: auto;
+//           position: absolute;
+//           h5 {
+//             position: relative;
+//             top: 100px;
+//             transition: 0.5s all ease;
+//           }
+//           color: #fff;
+//           top: 40%;
+//           & p {
+//             color: #fff;
+//             opacity: 0;
+//             transition: 1s opacity ease;
+//           }
+//         }
+//         a {
+//           text-align: center;
+//           text-decoration: none;
+//           color: #fff;
+//           position: absolute;
+//           top: 70%;
+//           left: 35%;
+//           i {
+//             color: red;
+//             width: 25px;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+/* -------------------------------------  third section Style  -------------------------------------------- */
+#rd-sect {
+  h2 {
+    color: #023d76;
+  }
+
+  .container {
+    .card {
+      position: relative;
+      border: none;
+      margin: auto;
+      img {
+        // width: 350px;
+        height: 350px;
+      }
+      .img-holder {
+        position: relative;
+        .content {
+          height: 80px;
+          // padding: 20px 0;
+          position: absolute;
+          margin: auto;
+          display: flex;
+          align-items: center;
+          background-color: rgba(47, 50, 53, 0.9);
+          top: 78%;
+          color: #fff;
+          // left: 0;
+          width: 100%;
+          
+        }
+      }
+    }
+  }
+}
+/* -------------------------------------  form Style  -------------------------------------------- */
+#form {
+  background-color: #f7f7f7;
+  h2 {
+    color: #023d76;
+  }
+  input {
+    border: none;
+  }
+  button {
+    border-radius: 0;
+  }
+}
+/* -------------------------------------  footer Style  -------------------------------------------- */
+footer {
+  background-color: #333;
+  color: #fff !important ;
+  span {
+    // position: relative;
+    padding: 0 10px;
+    i {
+      &:hover {
+        background-color: #0b71cf;
+        transition: all ease 0.8s;
+      }
+      // margin: 0 20px;
+      padding: 5px 10px;
+      font-size: 2rem;
+      // font-weight: 500;
+      // &:hover{
+      //     background-color: #09c;
+      // }
+    }
+  }
+  p {
+    font-size: 0.9rem;
+    // width: 70%;
+  }
+  .right {
+    a {
+      // padding: 0 10px;
+      font-size: 0.8rem;
+      text-decoration: none;
+      &:hover {
+        color: rgb(100, 96, 96) !important;
+        transition: 0.7s all ease;
+      }
+    }
+  }
+}
+/* -------------------------------------  Button Contact Style  -------------------------------------------- */
+#btn-contact {
+  position: fixed;
+  right: 30px;
+  bottom: 15px;
+  border-radius: 15px;
+  i {
+    font-size: 1.5rem;
+  }
+}
+/* -------------------------------------  Contact Us Style  -------------------------------------------- */
+#contact {
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  width: 360px;
+  z-index: 555;
+  header {
+    width: 100%;
+  }
+  .bg-light {
+    border-radius: 5px;
+    background-color: #eee !important;
+  }
+  input,
+  textarea {
+    background-color: #eee !important;
+    border: none;
+  }
+  p {
+    a {
+      text-decoration: underline;
+    }
+  }
+  display: none;
+}

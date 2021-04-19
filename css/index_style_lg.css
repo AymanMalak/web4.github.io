@@ -1,0 +1,40 @@
+#home {
+    /* height: 100vh !important; */
+    width: 100% !important;
+    height: 100vh !important;
+    background-image: url("../images/home-slide/james-group-home-main-slider-2.jpg") !important;
+    background-size: 100% 100% !important;
+}
+
+#home .owl-carousel {
+    /* height:  100% !important; */
+    width: 100% !important;
+    position: absolute;
+    top: 180px;
+    left: 10px;
+    /* width: 90% !important; */
+    margin: auto !important;
+    /* padding-top: 600px !important; */
+    color: #fff !important;
+    /* background-color: red !important; */
+}
+
+
+#home .owl-carousel span {
+    font-size: 1.3rem !important;
+}
+
+#home .owl-carousel h1 span {
+    font-size: 4rem !important;
+    padding: 25px 0 !important;
+}
+
+#home video {
+    display: none !important;
+}
+
+
+
+#rd-sect h6 {
+    font-size: 0.9rem !important;
+  }

@@ -1,0 +1,131 @@
+nav #navigation li{
+  padding: 50px 0 !important;
+}
+
+
+#home {
+  /* height: 100vh !important; */
+  width: 100% !important;
+  /* height: 100vh !important; */
+  /* height: 100% !important;
+    background-image: url("../images/home-slide/james-group-home-main-slider-2.jpg") !important;
+    background-size: 100% 100%; */
+}
+
+#home video {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+#home .owl-carousel {
+  /* height:  100% !important; */
+  position: absolute;
+  top: 200px;
+  left: 80px;
+  /* width: 90% !important; */
+  margin: auto !important;
+  /* padding-top: 600px !important; */
+  color: #fff !important;
+  /* background-color: red !important; */
+}
+
+#home .owl-carousel span {
+  font-size: 1rem !important;
+}
+
+#home .owl-carousel h1 span {
+  font-size: 4.5rem !important;
+  padding: 20px 0 !important;
+}
+
+/* ----------------------------------------- secnd section ----------------------------------------- */
+
+
+ /* #nd-sec {
+    h3.font-weight-bold {
+      color: #023d76;
+    }
+    p {
+      color: #333;
+    }
+    .container {
+      text-align: left;
+  
+      .cards {
+        .row {
+          text-align: center;
+          .card1 {
+            height: 500px;
+            background-image: url("../images/nd-sec-pages/james-group-corporate-re-home--mobile.jpg");
+            background-size: 100% 100%;
+            position: relative;
+          }
+          .card2 {
+            height: 500px;
+            background-image: url("../images/nd-sec-pages/james-group-multi-family-home--mobile.jpg");
+            background-size: 100% 100%;
+            position: relative;
+          }
+          .card3 {
+            height: 500px;
+            background-image: url("../images/nd-sec-pages/james-group-net-lease-home--mobile.jpg");
+            background-size: 100% 100%;
+            position: relative;
+          }
+  
+          .card1:hover,
+          .card2:hover,
+          .card3:hover {
+            p {
+              opacity: 1;
+              transition: 0.6s ease all;
+            }
+            h5 {
+              top: 0;
+            }
+          }
+  
+          .card1:hover .overlay,
+          .card2:hover .overlay,
+          .card3:hover .overlay {
+            opacity: 0.9;
+            transition: 1s ease all;
+          }
+  
+          .cont-hover {
+            width: 100%;
+            margin: auto;
+            position: absolute;
+            h5 {
+              position: relative;
+              top: 100px;
+              transition: 0.5s all ease;
+            }
+            color: #fff;
+            top: 40%;
+            & p {
+              color: #fff;
+              opacity: 0;
+              transition: 1s opacity ease;
+            }
+          }
+          a {
+            text-align: center;
+            text-decoration: none;
+            color: #fff;
+            position: absolute;
+            top: 70%;
+            left: 35%;
+            i {
+              color: red;
+              width: 25px;
+            }
+          }
+        }
+      }
+    }
+  } */
+
+#rd-sect h6 {
+  font-size: 1rem !important;
+}
